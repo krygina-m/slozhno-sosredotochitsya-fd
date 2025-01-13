@@ -18,7 +18,7 @@
 .header {
   display: grid;
   position: relative;
-  min-block-size: 100vh;
+  block-size: 100vh;
   margin-block-end: 10%;
 }
 
@@ -193,7 +193,7 @@
 
 .footer {
   position: relative;
-  min-block-size: 100vh;
+  block-size: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
