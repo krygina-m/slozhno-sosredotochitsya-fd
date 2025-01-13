@@ -17,18 +17,18 @@
   --font-family: 'IBM Plex mono';
   --font-size: 18px;
   --font-weight: 700;
-  --coner-image: url('../images/cover-image-light.png')
+  --coner-image: url('../images/cover-image-light.png');
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
-.theme-light .header_marker{
+.theme-light .header_marker {
   display: none;
 }
 
-.theme-light .header_marker_decorative_element::after{
+.theme-light .header_marker_decorative_element::after {
   display: none;
 }
 
@@ -44,14 +44,14 @@
     --font-family: 'IBM Plex mono';
     --font-size: 18px;
     --font-weight: 700;
-    --coner-image: url('../images/cover-image-light.png')
+    --coner-image: url('../images/cover-image-light.png');
   }
 
-  .theme-light .header_marker{
+  .theme-light .header_marker {
     display: none;
   }
   
-  .theme-light .header_marker_decorative_element::after{
+  .theme-light .header_marker_decorative_element::after {
     display: none;
   }
 }
