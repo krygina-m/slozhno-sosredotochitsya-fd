@@ -32,7 +32,7 @@
   display: none;
 }
 
-.theme-light .header__theme-menu-button_active{
+.theme-light .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--accent-text-color);
 }
@@ -82,7 +82,7 @@
     border-bottom: 1px solid var(--accent-text-color);
   }
    
-  .theme-auto .header__theme-menu-button_active{
+  .theme-auto .header__theme-menu-button_active {
     pointer-events: none;
     border: 1px solid var(--accent-text-color);
   }
