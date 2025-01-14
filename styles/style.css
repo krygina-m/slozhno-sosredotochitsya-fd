@@ -223,7 +223,7 @@
   display: none;
 }
 
-@media (width>760px) {
+@media (width>=760px) {
   .page {
     padding: 20px;
   }
@@ -319,7 +319,7 @@
   }
 }
 
-@media (width>1024px) {
+@media (width>=1024px) {
   .header {
     /*block-size: 768px;*/
     margin-block-end: 6%;
