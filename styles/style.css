@@ -113,6 +113,7 @@
 
 .header_subtitle {
   block-size: min-content;
+  margin-block-start: 0;
   margin-block-end: 10%;
 }
 
@@ -187,7 +188,7 @@
   column-gap: 20px;
 }
 
-.section_decrease_concentration .main_content_text{
+.section_decrease_concentration .main_content_text {
   margin-block-end: 20px;
 }
 
@@ -277,7 +278,7 @@
     gap: 162px;
   }
 
-  .header__theme-menu{
+  .header__theme-menu {
     margin-block-start: 172px;
   }
   
