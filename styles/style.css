@@ -39,8 +39,8 @@
 
 .header_marker_decorative_element {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 1px;
+  top: 1px;
   height: 25px;
   width: 25px;
   border-top: 1px solid var(--accent-color);
@@ -62,7 +62,7 @@
 .header__theme-menu {
   justify-self: end;
   /*margin-block: 65px;*/
-  margin-block-start: 73px;
+  margin-block-start: 65px;
 }
 
 .header__theme-menu-list {
@@ -201,7 +201,7 @@
 }*/
 
 .main_content_article:last-child {
-  margin-block-end: 50px;
+  margin-block-end: 30px;
 }
 
 .section_how_to_concentrate_content .main_content_subtitle {
