@@ -302,7 +302,7 @@
     grid-template-columns: 1fr 2fr; 
     row-gap: 20px;
     column-gap: 20px;
-    margin-block-start: 50px;
+    margin-block-start: 40px;
   }
 
   .section_decrease_concentration {
@@ -328,11 +328,13 @@
   .section_how_to_concentrate_content {
     grid-column-start: 2;
   }
-
-  .main_content_text:last-child
+  
+  .main_content_article:last-child {
+    margin-block-end: 80px;
+  }
 
   .section_gallery {
-    margin-block-start: 80px;
+    margin-block-start: 30px;
     margin-block-end: 60px;
   }
 
@@ -440,7 +442,7 @@
     grid-column-start: 2;
   }
 
-  .section_gallery{
+  .section_gallery {
     margin-block-start: 0;
   }
 
