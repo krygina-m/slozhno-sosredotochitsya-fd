@@ -320,9 +320,9 @@
 
   .section_how_to_concentrate {
     display: grid;
+    grid-template-columns: 1fr 2fr; 
     row-gap: 20px;
     column-gap: 20px;
-    grid-template-columns: 1fr 2fr; 
   }
 
   .section_how_to_concentrate_content {
@@ -404,7 +404,7 @@
     margin-block-end: 80px;
   }
 
-  .main_content_article:last-child{
+  .main_content_article:last-child {
     margin-block-end: 0;
   }
 
