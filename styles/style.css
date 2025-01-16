@@ -114,7 +114,7 @@
 .header_subtitle {
   block-size: min-content;
   margin-block-start: 0;
-  margin-block-end: 10%;
+ /* margin-block-end: 10%;*/
 }
 
 .main_content_title {
@@ -180,7 +180,7 @@
 }
 
 .section_hard_to_focus {
-  margin-block-start: 40px;
+  margin-block-start: 30px;
 }
 
 .section_decrease_concentration {
@@ -254,7 +254,7 @@
   width: 25px;
   border-left: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
-  bottom: 1px;
+  bottom: 10px;
   /*left: 10px;*/
 }
 
