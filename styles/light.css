@@ -12,11 +12,8 @@
   --title-color: #FFC2E6;
   --accent-color:#FF8DCB;
   --accent-text-color: #353430;
-
+  --bg-color: #fff1f7;
   --text-color: #353430;
-  --font-family: 'IBM Plex mono';
-  --font-size: 18px;
-  --font-weight: 700;
   --coner-image: url('../images/cover-image-light.png');
 }
 
@@ -36,6 +33,16 @@
   pointer-events: none;
   border: 1px solid var(--accent-text-color);
 }
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid rgba(50, 49, 45, 0.4);
+}
+
+.theme-light .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid rgba(50, 49, 45, 0.4);
+  outline: none;
+}
+
 
 
 
@@ -87,6 +94,15 @@
     border: 1px solid var(--accent-text-color);
   }
   
+  .theme-auto .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.4);
+  }
+  
+  .theme-auto .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid rgba(50, 49, 45, 0.4);
+    outline: none;
+  }
+
   .theme-auto .header_marker {
     display: none;
   }
