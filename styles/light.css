@@ -15,7 +15,6 @@
   --accent-color: 53, 52, 48;
   --accent-text-color: #353430;
   --text-color: #353430;
-
   --coner-image: url('../images/cover-image-light.png');
 }
 
@@ -45,9 +44,6 @@
   outline: none;
 }*/
 
-
-
-
 @media (prefers-color-scheme: light) {
   :root {
     --title-color: #FFC2E6;
@@ -64,6 +60,14 @@
   }
 
   .theme-light .header_marker_decorative_element::after {
+    display: none;
+  }
+  
+  .theme-auto .header_marker {
+    display: none;
+  }
+
+  .theme-auto .header_marker_decorative_element::after {
     display: none;
   }
   
@@ -103,14 +107,6 @@
     outline: none;
   }*/
 
-  .theme-auto .header_marker {
-    display: none;
-  }
-
-  .theme-auto .header_marker_decorative_element::after {
-    display: none;
-  }
-  
   /*
   .theme-auto .header_marker_decorative_element {
     border-top: 1px solid var(--accent-text-color);
