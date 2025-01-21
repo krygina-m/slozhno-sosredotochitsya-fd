@@ -10,10 +10,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --title-color: #FFC2E6;
-  --accent-color:#FF8DCB;
-  --accent-text-color: #353430;
   --bg-color: #fff1f7;
+  --accent-bg-color:#FF8DCB;
+  --accent-color: 53, 52, 48;
+  --accent-text-color: #353430;
   --text-color: #353430;
+
   --coner-image: url('../images/cover-image-light.png');
 }
 
@@ -29,7 +31,7 @@
   display: none;
 }
 
-.theme-light .header__theme-menu-button_active {
+/*.theme-light .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--accent-text-color);
 }
@@ -41,7 +43,7 @@
 .theme-light .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid rgba(50, 49, 45, 0.4);
   outline: none;
-}
+}*/
 
 
 
@@ -49,30 +51,28 @@
 @media (prefers-color-scheme: light) {
   :root {
     --title-color: #FFC2E6;
-    --accent-color: #FF8DCB;
+    --bg-color: #fff1f7;
+    --accent-bg-color:#FF8DCB;
+    --accent-color: 53, 52, 48;
     --accent-text-color: #353430;
-
     --text-color: #353430;
-    --font-family: 'IBM Plex mono';
-    --font-size: 18px;
-    --font-weight: 700;
     --coner-image: url('../images/cover-image-light.png');
   }
 
   .theme-light .header_marker {
     display: none;
   }
-  
-  .theme-light .header_marker_decorative_element {
-    border-top: 1px solid var(--accent-text-color);
-    border-right: 1px solid var(--accent-text-color);
-  }
 
   .theme-light .header_marker_decorative_element::after {
     display: none;
   }
+  
+  /*.theme-light .header_marker_decorative_element {
+    border-top: 1px solid var(--accent-text-color);
+    border-right: 1px solid var(--accent-text-color);
+  }*/
 
-  .theme-light .header__theme-menu-button {
+ /* .theme-light .header__theme-menu-button {
     color: var(--accent-text-color);
   }
 
@@ -87,9 +87,9 @@
   .theme-light .footer_marker_decorative_element {
     border-left: 1px solid var(--accent-text-color);
     border-bottom: 1px solid var(--accent-text-color);
-  }
+  }*/
    
-  .theme-auto .header__theme-menu-button_active {
+ /* .theme-auto .header__theme-menu-button_active {
     pointer-events: none;
     border: 1px solid var(--accent-text-color);
   }
@@ -99,29 +99,26 @@
   }
   
   .theme-auto .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid rgba(50, 49, 45, 0.4);
+    border-bottom: 1px solid rgba(50, 49, 45);
     outline: none;
-  }
+  }*/
 
   .theme-auto .header_marker {
     display: none;
-  }
-  
-  .theme-auto .header_marker_decorative_element {
-    border-top: 1px solid var(--accent-text-color);
-    border-right: 1px solid var(--accent-text-color);
   }
 
   .theme-auto .header_marker_decorative_element::after {
     display: none;
   }
+  
+  /*
+  .theme-auto .header_marker_decorative_element {
+    border-top: 1px solid var(--accent-text-color);
+    border-right: 1px solid var(--accent-text-color);
+  }*/
 
-  .theme-auto .header__theme-menu-button {
+  /*.theme-auto .header__theme-menu-button {
     color: var(--accent-text-color);
-  }
-
-  .theme-auto .header__theme-menu-button:hover {
-    border: 1px solid rgba(53, 52, 48, 0.4);
   }
 
   .theme-auto .main_content_title {
@@ -131,5 +128,5 @@
   .theme-auto .footer_marker_decorative_element {
     border-left: 1px solid var(--accent-text-color);
     border-bottom: 1px solid var(--accent-text-color);
-  }
+  }*/
 }
