@@ -45,8 +45,8 @@
   top: 1px;
   height: 25px;
   width: 25px;
-  border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--accent-color);
 }
 
 .header_marker_decorative_element::after {
