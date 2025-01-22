@@ -354,6 +354,7 @@
     grid-auto-flow: dense;
     gap: 20px;
     box-sizing: border-box;
+    margin-block-start: 20px;
   }
 
   .gallery__image {
