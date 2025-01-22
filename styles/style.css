@@ -261,7 +261,7 @@
   border-left: 1px solid rgb(var(--accent-color));
   border-bottom: 1px solid rgb(var(--accent-color));
   bottom: 10px;
-  left: 10px;
+  left: 1px;
 }
 
 /*.footer .footer_marker_decorative_element {
