@@ -3,7 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   margin: 0;
-  padding: 10px;
+  padding: 0;
+  /*padding: 10px;*/
   /*min-inline-size: 375px;
   max-inline-size: 1440px;*/
   font-family: var(--font-family), monospace;
@@ -23,6 +24,7 @@
   position: relative;
   block-size: 100vh;
   min-block-size: 668px;
+  margin: 10px 10px 0;
   /*margin-block-end: 10%;*/
   align-items: center;/*для центрирования меню*/
 }
@@ -120,6 +122,10 @@
   margin-block: 0;
   align-self: center;
   margin-block-end: 10px;
+}
+
+.main_content {
+  margin: 0 10px;
 }
 
 .main_content_title {
@@ -246,6 +252,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10px 10px;
 }
 
 .footer_title {
@@ -275,11 +282,8 @@
 }
 
 @media (width>=768px) {
-  .page {
-    padding: 20px;
-  }
-
   .header {
+    margin: 20px;
     /*align-items: start;/*для центрирования меню*/
     /*block-size: 1024px;
     margin-block-end: 7%;*/
@@ -302,6 +306,10 @@
     inline-size: 50%;
     justify-self: end;
     /*margin-block: 0;*/
+  }
+
+  .main_content {
+    margin: 0 20px;
   }
 
   .section_hard_to_focus {
@@ -381,6 +389,7 @@
   }
 
   .footer {
+    margin: 0 20px 20px;
    /* block-size: 1024px;*/
   }
 }
