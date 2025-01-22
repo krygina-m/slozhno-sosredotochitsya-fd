@@ -260,14 +260,15 @@
   width: 25px;
   border-left: 1px solid rgb(var(--accent-color));
   border-bottom: 1px solid rgb(var(--accent-color));
-  bottom: 15px;
-  /*left: 10px;*/
+  bottom: 10px;
+  left: 10px;
 }
 
-.footer .footer_marker_decorative_element {
+/*.footer .footer_marker_decorative_element {
   left: 10px;
   bottom: 10px;
 }
+*/
 
 .footer:has(.header_marker_decorative_element) .header_marker_decorative_element::after {
   display: none;
