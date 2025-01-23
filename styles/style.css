@@ -24,7 +24,7 @@
   position: relative;
   block-size: 100vh;
   min-block-size: 668px;
-  margin: 10px 10px 0;
+  margin: 0 10px;
   /*margin-block-end: 10%;*/
   align-items: center;/*для центрирования меню*/
 }
@@ -35,7 +35,7 @@
 
 .header_marker {
   position: absolute;
-  top: 3px;
+  top: 12px;
   right: 30px;
   text-transform: uppercase;
   color: var(--accent-bg-color);
@@ -45,7 +45,7 @@
 .header_marker_decorative_element {
   position: absolute;
   right: 1px;
-  top: 1px;
+  top: 10px;
   height: 25px;
   width: 25px;
   border-right: 1px solid rgb(var(--accent-color));
@@ -283,11 +283,20 @@
 
 @media (width>=768px) {
   .header {
-    margin: 20px;
+    margin: 0 20px;
     /*align-items: start;/*для центрирования меню*/
     /*block-size: 1024px;
     margin-block-end: 7%;*/
     /*gap: 162px;*/
+  }
+
+  .header_marker {
+    top: 22px;
+    right: 40px;
+  }
+
+  .header_marker_decorative_element {
+    top: 20px;
   }
 
   .header_title {
@@ -381,8 +390,12 @@
   }
 
   .footer {
-    margin: 0 20px 20px;
+    margin: 0 20px;
    /* block-size: 1024px;*/
+  }
+
+  .header_marker_decorative_element {
+    bottom: 20px;
   }
 }
 
@@ -401,7 +414,7 @@
   }
 
   .header__theme-menu {
-    margin-block: 0;
+    margin-block: 20px;
   }
 
   .header__theme-menu-list {
