@@ -134,7 +134,7 @@
   font-size: var(--font-size);
  /* margin-block-end: 1.1em;*/
   margin-block-start: 0;
-  margin-block-end: 20px;
+  margin-block-end: 30px;
 }
 
 .main_content_subtitle {
@@ -252,7 +252,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10px 10px;
+  margin: 0 10px;
 }
 
 .footer_title {
