@@ -121,7 +121,7 @@
   block-size: min-content;
   margin-block: 0;
   align-self: center;
-  margin-block-end: 25px;
+  margin-block-end: 20px;
 }
 
 .main_content {
@@ -292,7 +292,7 @@
 
   .header_marker {
     top: 22px;
-    right: 40px;
+    /*right: 30px;*/
   }
 
   .header_marker_decorative_element {
@@ -401,9 +401,8 @@
 
 @media (width>=1024px) {
   .header_subtitle {
-    inline-size: 50%;
-    justify-self: end;
-    margin-block-end: 40px;
+    /*margin-block-end: 37px;*/
+    margin-block-end: 10px;/*по пиксель перфект*/
   }
 
   .header_menu {
