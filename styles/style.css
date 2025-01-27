@@ -304,6 +304,7 @@
   .header_subtitle {
     inline-size: 50%;
     justify-self: end;
+    margin-block-end: 20px;
     /*margin-block: 0;*/
   }
 
